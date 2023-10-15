@@ -66,7 +66,7 @@ import java.util.Scanner;
 
     }
 }*/
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         Scanner reader=new Scanner(System.in);
         int sum=0;
@@ -88,7 +88,31 @@ public class Main {
 
     }
 
+}*/
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner reader=new Scanner(System.in);
+
+        System.out.println("enter first number");
+        int firstNumber = reader.nextInt();
+
+
+        System.out.println("enter second number");
+        int lastnumber = reader.nextInt();
+
+
+
+        while (firstNumber<=lastnumber){
+            System.out.println(firstNumber);
+            firstNumber++;
+
+            if (firstNumber>lastnumber){
+                break;
+            }
+
+        }
+
+    }
 }
-
-
 
